@@ -24,7 +24,7 @@
 
 - name: battery_power
   type: poller
-  address: 32102
+  address: 32103
   modbus_type: holding
   data_type: int32
   unit: "W"
@@ -44,7 +44,7 @@
   type: poller
   address: 32101
   modbus_type: holding
-  data_type: int16
+  data_type: int32
   scale: 0.01
   unit: "A"
   device_class: current
@@ -60,7 +60,7 @@
 
 - name: ac_current
   type: poller
-  address: 32201
+  address: 32202
   modbus_type: holding
   data_type: int16
   scale: 0.01
@@ -69,11 +69,65 @@
 
 - name: ac_power
   type: poller
-  address: 32202
+  address: 32203
   modbus_type: holding
-  data_type: int32
+  data_type: int16
   unit: "W"
   device_class: power
+
+- name: ac_freq
+  type: poller
+  address: 32204
+  modbus_type: holding
+  data_type: uint16
+  scale: 0.1
+  unit: "Hz"
+  device_class: power
+
+- name: temp
+  type: poller
+  address: 33000
+  modbus_type: holding
+  data_type: uint16
+  scale: 0.1
+  unit: "°C"
+  device_class: temperature  
+
+- name: temp_MOS1
+  type: poller
+  address: 33001
+  modbus_type: holding
+  data_type: uint16
+  scale: 0.1
+  unit: "°C"
+  device_class: temperature  
+
+- name: temp_MOS2
+  type: poller
+  address: 33002
+  modbus_type: holding
+  data_type: uint16
+  scale: 0.1
+  unit: "°C"
+  device_class: temperature  
+
+- name: temp_max_cell
+  type: poller
+  address: 35010
+  modbus_type: holding
+  data_type: uint16
+  scale: 0.1
+  unit: "°C"
+  device_class: temperature  
+
+- name: temp_min_cell
+  type: poller
+  address: 35011
+  modbus_type: holding
+  data_type: uint16
+  scale: 0.1
+  unit: "°C"
+  device_class: temperature    
 
 # Writer-Register
 - name: soc_target
