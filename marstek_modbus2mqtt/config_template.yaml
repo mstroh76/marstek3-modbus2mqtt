@@ -49,6 +49,15 @@
   unit: "A"
   device_class: current
 
+- name: battery_temp
+  type: poller
+  address: 32108
+  modbus_type: holding
+  data_type: unit16
+  scale: 0.1
+  unit: "°C"
+  device_class: temperature
+
 - name: ac_voltage
   type: poller
   address: 32200
