@@ -8,7 +8,7 @@ Es basiert auf [`modbus2mqtt`](https://github.com/daniel-sanders/modbus2mqtt) un
 
 ## 🔌 Zu Home Assistant hinzufügen
 
-[![Installieren in Home Assistant](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/kleimj1/marstek-modbus2mqtt)
+[![Installieren in Home Assistant](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/mstroh76/marstek3-modbus2mqtt)
 
 ---
 
