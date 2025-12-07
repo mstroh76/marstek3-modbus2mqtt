@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "[INFO] Starting Marstek Modbus2MQTT Add-on..."
+echo "[INFO] Starting Marstek 3.0 Modbus2MQTT Add-on..."
 
 MODBUS_HOST=$(jq -r '.modbus_host' /data/options.json)
 MODBUS_PORT=$(jq -r '.modbus_port' /data/options.json)
