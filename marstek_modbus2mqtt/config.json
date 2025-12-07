@@ -1,8 +1,8 @@
 {
   "name": "Marstek Modbus2MQTT Bridge",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "slug": "marstek_modbus2mqtt",
-  "description": "Publishes Marstek battery data over MQTT using Modbus TCP (via Elfin EW11)",
+  "description": "Publishes Marstek 3.0 battery data over MQTT using Modbus TCP (via Elfin EW11)",
   "arch": ["amd64", "armv7", "aarch64"],
   "startup": "application",
   "boot": "auto",
