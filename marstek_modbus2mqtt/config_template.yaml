@@ -137,27 +137,27 @@
   unit: "°C"
   device_class: temperature    
 
-# Writer-Register
-- name: soc_target
-  type: writer
-  address: 42011
-  modbus_type: holding
-  data_type: uint16
-
-- name: force_charge_mode
-  type: writer
-  address: 42010
-  modbus_type: holding
-  data_type: uint16
-
-- name: force_charge_power
-  type: writer
-  address: 42020
-  modbus_type: holding
-  data_type: uint16
-
-- name: force_discharge_power
-  type: writer
-  address: 42021
-  modbus_type: holding
-  data_type: uint16
+## Writer-Register
+#- name: soc_target
+#  type: writer
+#  address: 42011
+#  modbus_type: holding
+#  data_type: uint16
+#
+#- name: force_charge_mode
+#  type: writer
+#  address: 42010
+#  modbus_type: holding
+#  data_type: uint16
+#
+#- name: force_charge_power
+#  type: writer
+#  address: 42020
+#  modbus_type: holding
+#  data_type: uint16
+#
+#- name: force_discharge_power
+#  type: writer
+#  address: 42021
+#  modbus_type: holding
+#  data_type: uint16
